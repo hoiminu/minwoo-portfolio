@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="About me: bio, interests, and the things I do when I'm not building products.">
+  <title>About - Minwoo Seo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body class="page-about">
+
+  <!-- Navigation -->
+  <nav class="nav" aria-label="Main navigation">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">MS</a>
+      <button class="nav__toggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav__links">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="work.html" class="nav__link">Work</a></li>
+        <li><a href="about.html" class="nav__link active">About</a></li>
+        <li><a href="dogs.html" class="nav__link">Dogs</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1 class="page-header__title reveal">About Me</h1>
+        <p class="page-header__subtitle reveal">The non-resume version.</p>
+      </div>
+    </section>
+
+    <!-- Bio -->
+    <section class="section">
+      <div class="container">
+        <div class="bio reveal">
+          <div class="bio__image">
+            <img src="images/about-pottery.jpg" alt="Minwoo doing pottery" width="480" height="480">
+          </div>
+          <div class="bio__content">
+            <h2 class="bio__name">Hi there!</h2>
+            <p class="bio__text">I'm a product manager with hands-on software engineering experience, based in Seattle and currently at Meta working on monetization and platform products that reach billions of users. Before Meta, I spent nearly a decade at Amazon, shipping GenAI-powered Alexa features, scaling global supply chains, launching grocery delivery across three countries, and building a luxury watches category from scratch.</p>
+            <p class="bio__text">My career started in luxury retail in Seoul at Shilla Duty Free (Samsung Group), where I managed a $111M portfolio of watch brands. I went on to earn my MBA at Columbia Business School, interned at Louis Vuitton in New York, and eventually made my way to tech. I also completed Amazon's Technical Academy for software engineering and General Assembly's UX Design program.</p>
+            <p class="bio__text">I speak three languages: Korean (native), Japanese (JLPT N1), and English. I love bridging worlds, whether that's across cultures, between engineering and business, or from customer pain points to scalable solutions.</p>
+            <p class="bio__text">When I'm not heads-down on a product problem, you'll find me on the golf course, at a pottery studio, curled up with a book, or hanging out with my dogs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title reveal">Education</h2>
+        </div>
+        <div class="grid grid--2">
+          <div class="card reveal">
+            <h3 class="edu-card__school">Columbia Business School</h3>
+            <p class="edu-card__degree">MBA, Technological Innovation, Entrepreneurship &amp; Retail</p>
+            <p class="edu-card__meta">New York, NY · 2014</p>
+          </div>
+          <div class="card reveal">
+            <h3 class="edu-card__school">Ewha Womans University</h3>
+            <p class="edu-card__degree">BA, Clothing &amp; Textiles / Business Administration</p>
+            <p class="edu-card__meta">Seoul, Korea · 2008</p>
+          </div>
+          <div class="card reveal">
+            <h3 class="edu-card__school">Amazon Technical Academy</h3>
+            <p class="edu-card__degree">Software Engineering Certification</p>
+            <p class="edu-card__meta">Virtual · 2021</p>
+          </div>
+          <div class="card reveal">
+            <h3 class="edu-card__school">General Assembly</h3>
+            <p class="edu-card__degree">UX Design Certification</p>
+            <p class="edu-card__meta">Virtual · 2019</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hobbies -->
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title reveal">Things I Enjoy</h2>
+          <p class="section__subtitle reveal">A few of the hobbies that keep me balanced outside of work.</p>
+        </div>
+        <div class="grid grid--3">
+
+          <div class="card card--hover hobby-card reveal">
+            <div class="hobby-card__image">
+              <img src="images/about-skiing.jpg" alt="Minwoo skiing" width="400" height="280">
+            </div>
+            <div class="hobby-card__body">
+              <h3 class="hobby-card__title">Sports</h3>
+              <p class="hobby-card__desc">Golf, tennis, and skiing. Always up for getting outdoors and staying active, rain or shine in Seattle.</p>
+            </div>
+          </div>
+
+          <div class="card card--hover hobby-card reveal">
+            <div class="hobby-card__image">
+              <img src="images/about-pottery.jpg" alt="Minwoo doing pottery" width="400" height="280">
+            </div>
+            <div class="hobby-card__body">
+              <h3 class="hobby-card__title">Arts &amp; Crafts</h3>
+              <p class="hobby-card__desc">Painting, pottery, knitting, and sewing. I love making things with my hands. It's the perfect counterbalance to screen time.</p>
+            </div>
+          </div>
+
+          <div class="card card--hover hobby-card reveal">
+            <div class="hobby-card__image">
+              <img src="images/placeholder-hobby.svg" alt="Reading" width="400" height="280">
+            </div>
+            <div class="hobby-card__body">
+              <h3 class="hobby-card__title">Reading</h3>
+              <p class="hobby-card__desc">Always have a book going, from product strategy and business to fiction. Best enjoyed with a dog on my lap.</p>
+            </div>
+          </div>
+
+          <div class="card card--hover hobby-card reveal">
+            <div class="hobby-card__image">
+              <img src="images/dogs-costumes.jpg" alt="Dogs in costumes" width="400" height="280">
+            </div>
+            <div class="hobby-card__body">
+              <h3 class="hobby-card__title">Dogs</h3>
+              <p class="hobby-card__desc">My dogs are my favorite coworkers. They have their own page on this site. Go say hi.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__links">
+        <a href="https://linkedin.com/in/minwooseo" class="footer__link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:minu.seo@gmail.com" class="footer__link">Email</a>
+      </div>
+      <p class="footer__copy">&copy; 2026 Minwoo Seo. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

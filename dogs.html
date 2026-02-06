@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Meet my dogs — the real stars of this website.">
+  <title>Dogs — Minwoo Seo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body class="page-dogs">
+
+  <!-- Navigation -->
+  <nav class="nav" aria-label="Main navigation">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">MS</a>
+      <button class="nav__toggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav__links">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="work.html" class="nav__link">Work</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="dogs.html" class="nav__link active">Dogs</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1 class="page-header__title reveal">The Dogs</h1>
+        <p class="page-header__subtitle reveal">The real reason you're here. Meet my two best co-workers.</p>
+      </div>
+    </section>
+
+    <!-- Dog Profiles -->
+    <section class="section">
+      <div class="container">
+
+        <!-- Mori -->
+        <div class="dog-profile reveal">
+          <div class="dog-profile__image">
+            <img src="images/dogs-costumes.jpg" alt="Photo of Mori" width="560" height="400">
+          </div>
+          <div class="dog-profile__content">
+            <h2 class="dog-profile__name">Mori</h2>
+            <p class="dog-profile__breed">Yorkshire Terrier / Jack Russell / Mini Poodle Mix &middot; 9 years old</p>
+            <p class="dog-profile__bio">Mori is the pensive philosopher of the household. More cat than dog, he will ignore your commands with elegant disdain, then curl up right next to you the moment you stop paying attention. He lives for butt scratches and quiet contemplation.</p>
+            <div class="dog-profile__traits">
+              <span class="pill">Independent</span>
+              <span class="pill">Pensive</span>
+              <span class="pill">Cat-Like</span>
+              <span class="pill">Butt Scratch Lover</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dash -->
+        <div class="dog-profile dog-profile--reverse reveal">
+          <div class="dog-profile__image">
+            <img src="images/dogs-target.jpg" alt="Photo of Dash" width="560" height="400">
+          </div>
+          <div class="dog-profile__content">
+            <h2 class="dog-profile__name">Dash</h2>
+            <p class="dog-profile__breed">Coton de Tulear &middot; 2 years old</p>
+            <p class="dog-profile__bio">Dash is the household's self-appointed security guard, always on watch by the window. He's also a notorious sock thief. Socially awkward with other dogs, his only friend is his big brother Mori. We're working on it.</p>
+            <div class="dog-profile__traits">
+              <span class="pill">On Guard</span>
+              <span class="pill">Sock Thief</span>
+              <span class="pill">Socially Awkward</span>
+              <span class="pill">Mori's Best Friend</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section section--alt">
+      <div class="container gallery reveal">
+        <h2 class="gallery__title">More Moments</h2>
+        <div class="gallery__grid">
+          <div class="gallery__item">
+            <img src="images/dogs-costumes.jpg" alt="Mori and Dash in costumes" width="560" height="400">
+          </div>
+          <div class="gallery__item">
+            <img src="images/dogs-target.jpg" alt="Mori and Dash in red outfits" width="560" height="400">
+          </div>
+          <div class="gallery__item">
+            <img src="images/about-pottery.jpg" alt="Minwoo doing pottery" width="560" height="400">
+          </div>
+          <div class="gallery__item">
+            <img src="images/about-skiing.jpg" alt="Minwoo skiing" width="560" height="400">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__links">
+        <a href="https://linkedin.com/in/minwooseo" class="footer__link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:minu.seo@gmail.com" class="footer__link">Email</a>
+      </div>
+      <p class="footer__copy">&copy; 2026 Minwoo Seo. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

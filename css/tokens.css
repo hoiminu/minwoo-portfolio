@@ -1,0 +1,65 @@
+/* Design Tokens */
+:root {
+  /* Colors */
+  --color-bg: #FFFAF5;
+  --color-bg-alt: #FFF0E0;
+  --color-text: #2D1F14;
+  --color-text-muted: #8A7560;
+  --color-accent: #E8503E;
+  --color-accent-hover: #D1402F;
+  --color-accent-secondary: #F5A623;
+  --color-accent-soft: rgba(232, 80, 62, 0.08);
+  --color-border: #F0DCC8;
+  --color-nav-bg: rgba(255, 250, 245, 0.72);
+  --color-nav-bg-solid: rgba(255, 250, 245, 0.95);
+
+  /* Gradients */
+  --gradient-accent: linear-gradient(135deg, #E8503E, #F5A623);
+
+  /* Typography */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-size-xs: 0.75rem;    /* 12px */
+  --font-size-sm: 0.875rem;   /* 14px */
+  --font-size-base: 1rem;     /* 16px */
+  --font-size-md: 1.125rem;   /* 18px */
+  --font-size-lg: 1.25rem;    /* 20px */
+  --font-size-xl: 1.5rem;     /* 24px */
+  --font-size-2xl: 2rem;      /* 32px */
+  --font-size-3xl: 2.5rem;    /* 40px */
+  --font-size-4xl: 3.5rem;    /* 56px */
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-32: 128px;
+
+  /* Layout */
+  --max-width: 1120px;
+  --nav-height: 60px;
+
+  /* Borders */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(45, 31, 20, 0.05), 0 1px 2px rgba(232, 80, 62, 0.04);
+  --shadow-md: 0 4px 12px rgba(45, 31, 20, 0.07), 0 2px 8px rgba(232, 80, 62, 0.05);
+  --shadow-lg: 0 8px 24px rgba(45, 31, 20, 0.09), 0 4px 16px rgba(232, 80, 62, 0.06);
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+}
