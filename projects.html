@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Product Manager portfolio — experience in product management, software engineering, and more.">
-  <title>Minwoo Seo — Product Manager</title>
+  <meta name="description" content="Projects — side projects and tools I've built.">
+  <title>Projects — Minwoo Seo</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/pages.css">
 </head>
-<body class="page-home">
+<body class="page-projects">
 
   <!-- Navigation -->
   <nav class="nav" aria-label="Main navigation">
@@ -25,9 +25,9 @@
         <span></span>
       </button>
       <ul class="nav__links">
-        <li><a href="index.html" class="nav__link active">Home</a></li>
+        <li><a href="index.html" class="nav__link">Home</a></li>
         <li><a href="work.html" class="nav__link">Work</a></li>
-        <li><a href="projects.html" class="nav__link">Projects</a></li>
+        <li><a href="projects.html" class="nav__link active">Projects</a></li>
         <li><a href="about.html" class="nav__link">About</a></li>
         <li><a href="dogs.html" class="nav__link">Dogs</a></li>
       </ul>
@@ -35,35 +35,36 @@
   </nav>
 
   <main>
-    <!-- Hero -->
-    <section class="hero">
-      <div class="container hero__inner">
-        <p class="hero__greeting reveal">Hello, I'm</p>
-        <h1 class="hero__name reveal"><span class="gradient-text">Minwoo Seo</span></h1>
-        <p class="hero__tagline reveal">Product manager with software engineering experience, creating user-focused e-commerce and platform experiences backed by strong technical and data insights — and a proud dog mom.</p>
-        <div class="hero__cta reveal">
-          <a href="work.html" class="btn btn--primary">See My Work &rarr;</a>
-          <a href="about.html" class="btn btn--secondary">About Me &rarr;</a>
-        </div>
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1 class="page-header__title reveal">Projects</h1>
+        <p class="page-header__subtitle reveal">Side projects and tools I've built in my spare time.</p>
       </div>
     </section>
 
-    <!-- Highlights -->
-    <section class="section section--alt">
+    <!-- Weekly Planner -->
+    <section class="section">
       <div class="container">
-        <div class="grid grid--3 highlights">
-          <div class="highlight card reveal">
-            <span class="highlight__number">10+</span>
-            <span class="highlight__label">Years in Product &amp; Tech</span>
+        <div class="project-card card reveal">
+          <div class="project-card__header">
+            <h2 class="project-card__title">Weekly Todo Planner</h2>
+            <p class="project-card__desc">A weekly task tracker with completion tracking, category management, and AI-powered task extraction from meeting notes and emails.</p>
+            <div class="project-card__tags">
+              <span class="pill">PWA</span>
+              <span class="pill">Productivity</span>
+              <span class="pill">AI-Powered</span>
+            </div>
           </div>
-          <div class="highlight card reveal">
-            <span class="highlight__number">Billions</span>
-            <span class="highlight__label">Users Reached (Meta &amp; Amazon)</span>
+          <div class="project-card__embed">
+            <iframe
+              src="https://hoiminu.github.io/WeeklyTodo/"
+              title="Weekly Todo Planner"
+              loading="lazy"
+              allow="clipboard-write"
+            ></iframe>
           </div>
-          <div class="highlight card reveal">
-            <span class="highlight__number">3</span>
-            <span class="highlight__label">Languages Spoken</span>
-          </div>
+          <a href="https://hoiminu.github.io/WeeklyTodo/" class="btn btn--secondary project-card__link" target="_blank" rel="noopener noreferrer">Open Full App &rarr;</a>
         </div>
       </div>
     </section>
